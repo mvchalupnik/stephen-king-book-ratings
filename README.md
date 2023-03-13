@@ -23,7 +23,7 @@ A linear regression (and visual inspection) of the scatterplot of the average Go
 
 <img src="data/stephen_king_books.png" width = "600">
 
-(Also see the HTML file with the same plot, except titles only appear when you hover over the scatter plot points.)
+(Also see the data/html/stephen_king_books.html file with the same plot, except titles only appear when you hover over the scatter plot points.)
 
 Future work might entail looking at the reception of his books among newspaper book reviewers.
 
