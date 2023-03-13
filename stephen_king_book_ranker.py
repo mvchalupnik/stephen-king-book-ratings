@@ -233,4 +233,5 @@ def plot_with_plotly(csv_name, plot_file_name):
     fig.add_trace(px.line(x=x, y=line, color_discrete_sequence=['darksalmon'], title='Linear Regression').data[0])
 
     # Save the plot to an HTML file
-    fig.write_html(plot_file_name + ".html")
+    fig.to_html(full_html=False, include_plotlyjs='cdn')
+    fig.write_html(plot_file_name + ".html", full_html=False, include_plotlyjs='cdn')
