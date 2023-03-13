@@ -21,18 +21,14 @@ To generate the two CSV files and two plot files, run `main.py`.
 
 A linear regression (and visual inspection) of the scatterplot of the average Goodreads ratings of Stephen King's books by year shows his work quality has apparently not decreased with age, at least according to Goodreads users.
 
-<iframe src="https://your-html-file-url"></iframe>
+<img src="data/stephen_king_books.png" width = "600">
 
-<div>
-    <a href="https://plotly.com/~your_plotly_username/your_plotly_plot_id/" target="_blank">
-        <img src="https://raw.githubusercontent.com/your_github_username/your_github_repository_name/main/path_to_your_html_file/plot.html">
-    </a>
-</div>
+<iframe src="https://github.com/mvchalupnik/stephen-king-book-ratings/blob/main/data/stephen_king_books.html"></iframe>
 
 Future work might entail looking at the reception of his books among newspaper book reviewers.
 
 ## Acknowledgements
 
-ChatGPT wrote the first version of this code (see the first commit). The code, while impressively close to working, did not actually work.
+ChatGPT wrote the first version of this code (see the first commit, which was all ChatGPT). The code, while impressively close to working, did not actually completely work.
 
 <img src="data/chatgpt.png" width = "600">
